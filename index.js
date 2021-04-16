@@ -57,7 +57,7 @@ if (msg.content === 'cbotinfo') {
 
   .setThumbnail('https://i.imgur.com/CgwW1xI.png')
   .setTitle('O bocie')
-  .setDescription('**:books: Biblioteka bota - discord.js \n :orange_circle: hosting bota - lokalny \n :eye: Wersja bota - v1.0.0 \n :crown: Właściciel bota - !  Marvelowyy#4709**')
+  .setDescription('**:books: Biblioteka bota - discord.js \n :green_circle: hosting bota - Heroku | 24/7 \n :eye: Wersja bota - v1.0.0 \n :crown: Właściciel bota - !  Marvelowyy#4709**')
   .addField('prefix : ', botPrefix, true)
   
   channel.send(embedcotinf)
