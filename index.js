@@ -10,7 +10,7 @@ const log = console.log
 client.on("ready", () => {
   log(chalk.blue(`Zalogowano jako ${client.user.tag}!`))
 
-client.user.setActivity("prefix", {
+client.user.setActivity("chelp", {
   type: "WATCHING",
   url: "https://discord.gg/Jn8GSN3HsB"
 });
