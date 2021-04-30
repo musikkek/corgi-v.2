@@ -50,7 +50,7 @@ client.on("message", (msg) => {
 
 if (msg.content === 'cbotinfo') {
   const botAuthor = "! Marvelowyy"
-  const botVersion = "v 1.0.0"
+  const botVersion = "v 0.1.0 | Beta"
   const botPrefix = '***c***'
 
   const embedcotinf = new MessageEmbed()
